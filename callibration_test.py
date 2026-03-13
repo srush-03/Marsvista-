@@ -1,27 +1,3 @@
-"""
-CALIBRATION TEST
-================
-Run this BEFORE setting your threshold.
-
-Step 1: Hold feature_type_1 object close to camera (like your seed images)
-        Watch the score — note the number. Should be highest here.
-
-Step 2: Move it to ~1 meter away
-        Watch the score — note the number.
-
-Step 3: Move it to ~2 meters away (simulating aerial view)
-        Watch the score — note the number.
-
-Step 4: Point camera at random background (no feature object)
-        Watch the score — this is your FALSE POSITIVE baseline.
-
-The threshold should be:
-    ABOVE the false positive score
-    BELOW the close-up score
-    
-Share these 4 numbers and I'll set the correct threshold.
-"""
-
 import cv2
 import time
 import numpy as np
