@@ -1,2 +1,20 @@
+venv/
 __pycache__/
 *.pyc
+*.pyo
+
+# logs and runtime data
+data/archive/*
+data/detections/*
+data/keyframes/*
+data/logs/*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# python cache
+*/__pycache__/
+
+# test outputs
+*.log

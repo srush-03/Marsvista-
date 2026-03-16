@@ -1,0 +1,21 @@
+# Detection backend
+detector: orb        
+
+# Seeds
+seed_path: seeds
+
+# Camera
+camera_type: oakd   
+camera_fps: 30
+frame_width: 1280
+frame_height: 720
+
+# Keyframes
+keyframe_fps: 8
+
+# Safety
+battery_abort_threshold: 20
+
+# Mission
+mission_loop: true
+return_to_base_after_detection: true
