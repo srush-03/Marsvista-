@@ -1,0 +1,17 @@
+# ASCEND Perception System — Team Marsvista
+# Python 3.10+, CPU-only
+
+opencv-python>=4.8.0
+numpy>=1.24.0
+scikit-image>=0.21.0
+Pillow>=10.0.0
+
+# Deep learning (CPU inference only — no CUDA needed)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# DINOv2 loaded via torch.hub on first run (requires internet, ~350MB, cached after)
+# Fallback: MobileNetV2 used automatically if DINOv2 unavailable
+
+# NOT included — not needed for this system:
+# faiss-cpu  (only useful for 1000+ references; we have 3)
